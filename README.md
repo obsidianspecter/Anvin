@@ -31,16 +31,16 @@ cd anvin-chatbot
 #### **Create a Virtual Environment & Install Dependencies**
 ```bash
 cd backend
-python3 -m venv venv
-source venv/bin/activate  # For Linux/macOS
-venv\Scripts\activate     # For Windows
+python3 -m venv Aviant
+source Aviant/bin/activate  # For Linux/macOS
+Aviant\Scripts\activate     # For Windows
 pip install -r requirements.txt
 ```
 
 #### **Start the Ollama Server**
 ```bash
 ollama serve
-ollama pull mistral  # Ensure the model is available
+ollama pull llama3.2  # Ensure the model is available
 ```
 
 #### **Run FastAPI Server**
